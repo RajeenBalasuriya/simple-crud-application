@@ -34,10 +34,12 @@ const Books = () => {
 
                     <div className="book" key={book.id}>
 
-                        {book.cover && <img src={book.cover} alt='image'/>}
+                        {book.cover && <img src={book.cover} alt=''/>}
                         <h2>{book.title}</h2>
                         <p>{book.desc}</p>
                         <span>{book.price}</span>
+                        <button className="delete">Delete</button>
+                        <button className="update">Update</button>
                     </div>
                 ))}
 

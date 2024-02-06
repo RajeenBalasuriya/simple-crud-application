@@ -4,6 +4,7 @@ import { BrowserRouter, Routes ,Route} from "react-router-dom";
 import Update from './pages/update';
 import Books from './pages/books';
 import Add from './pages/Add';
+import "./style.css"
 
 
 
